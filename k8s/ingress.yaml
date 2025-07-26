@@ -12,10 +12,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - techsolutions.yourdomain.com
+    - pj-devops.com
     secretName: techsolutions-tls
   rules:
-  - host: techsolutions.yourdomain.com
+  - host: pj-devops.com
     http:
       paths:
       - path: /(.*)
